@@ -59,15 +59,14 @@ p {
     background-position: center;
 }
 
-.float-left {
+/* Code consolidation */
+.float-left,
+.float-right {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+
 
 .content {
     width: 75%;
@@ -86,72 +85,37 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* Consolidated code from 3 blocks to 1 */
+.benefit-lead,
+.benefit-cost,
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Consolidated code from 3 blocks to 1 */
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/* Consolidated code from 3 blocks to 1 */
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
+/* Code consolidation */
+.search-engine-optimization,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,32 +125,23 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/* cod consolidation from 3 lines to 1 */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img{
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Code consolidation from 3 lines to 1 */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+
 
 .footer {
     padding: 30px;
